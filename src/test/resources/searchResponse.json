@@ -1,0 +1,14 @@
+[
+  {
+    "hotelId": 1,
+    "roomId": 1,
+    "price": 150.00,
+    "currency": "USD"
+  },
+  {
+    "hotelId": 1,
+    "roomId": 2,
+    "price": 200.00,
+    "currency": "USD"
+  }
+]
