@@ -1,4 +1,4 @@
-package com.katanox.api;
+package com.katanox.api.service;
 
 public interface LogInterface {
 }

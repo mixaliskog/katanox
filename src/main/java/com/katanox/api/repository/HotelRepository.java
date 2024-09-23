@@ -1,9 +1,10 @@
-package com.katanox.api;
+package com.katanox.api.repository;
 
-import com.katanox.test.sql.tables.Hotels;
 import org.jooq.DSLContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
+import com.katanox.test.sql.tables.Hotels;
 
 @Repository
 public class HotelRepository {
@@ -17,4 +18,5 @@ public class HotelRepository {
                 .values("fake", 1)
                 .execute();
     }
+
 }
